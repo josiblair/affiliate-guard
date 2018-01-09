@@ -6,11 +6,11 @@ import logo from '../../images/logo.png';
 class About extends Component {
 
     render() {
-        return(
+        return (
             <div className='about_container'>
-                <Nav />
-
                 <div className='about_header'>
+                    <Nav />
+
                     <div className='about_logo'>
                         <img src={logo} alt='logo' />
                     </div>

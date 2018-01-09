@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed');
 
-$gray: #525252;
+$gray: #222222;
 $silver: #A3A3A3;
 $white: #FFFFFF;
 $black: #0A090C;
@@ -8,3 +8,12 @@ $red: #AC1F27;
 $black-border: 1px solid $black;
 $oswald: 'Oswald', sans-serif;
 $roboto: 'Roboto Condensed', sans-serif;
+
+.about_container {
+    background-color: $gray;
+}
+
+.about_header {
+    background: url('../../images/kettlebell.jpg') no-repeat center;
+    background-size: cover;
+}
