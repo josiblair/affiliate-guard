@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './About.css';
 import Nav from '../Nav/Nav';
 import logo from '../../images/logo.png';
+import {Link} from 'react-router-dom';
 
 class About extends Component {
 
@@ -10,13 +11,17 @@ class About extends Component {
             <div className='about_container'>
                 <div className='about_header'>
                     <Nav />
+                    <div className='header_content'>
+                        <Link to='/'><img src={logo} alt='logo' className='about_logo' /></Link>
 
-                    <div className='about_logo'>
-                        <img src={logo} alt='logo' />
-                    </div>
-                    <div>
-                        <div className='contact_info'></div>
-                        <span>Why Affiliate Guard?</span>
+                        <div className='right_header'>
+                            <div className='contact_info'>
+                                <span className='about_phone'>801-677-0076</span>
+                                <span className='about_address'>46 W 200 S - BOUNTIFUL, UT 84010</span>
+                            </div>
+
+                            <span className='header'>Why Affiliate Guard?</span>
+                        </div>
                     </div>
                 </div>
 

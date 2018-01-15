@@ -8,9 +8,9 @@ class Nav extends Component {
     render() {
         return(
             <div className='nav_container'>
-                <div>
+                {/* <div>
                     <Link to='/'><img src={logo} alt='' className='nav_logo'/></Link>
-                </div>
+                </div> */}
 
                 <div className='nav_links'>
                     <Link to='/about' className='nav_name'>About Us</Link>
